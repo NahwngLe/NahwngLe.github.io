@@ -69,100 +69,100 @@ function openGif() {
     nameIn = input.value.trim();
     switch(nameIn) {
         case "Cao Nguyên":
-            img1.src = 'picture/caonguyenHead.png';
-            img2.src = 'picture/caonguyenBody.png';
-            img3.src = 'picture/caonguyenLast.png';
-            img4.src = 'picture/caonguyenInvite.png';
+            img1.src = 'caonguyenHead.png';
+            img2.src = 'caonguyenBody.png';
+            img3.src = 'caonguyenLast.png';
+            img4.src = 'caonguyenInvite.png';
             break;
         case "Minh Đính":
-            img1.src = 'picture/dinhHead.png';
-            img2.src = 'picture/dinhBody.png';
-            img3.src = 'picture/dinhLast.png';
-            img4.src = 'picture/dinhInvite.png';
+            img1.src = 'dinhHead.png';
+            img2.src = 'dinhBody.png';
+            img3.src = 'dinhLast.png';
+            img4.src = 'dinhInvite.png';
             break;
         case "Trọng Tiến":
-            img1.src = 'picture/dinhtienHead.png';
-            img2.src = 'picture/dinhtienBody.png';
-            img3.src = 'picture/dinhtienLast.png';
-            img4.src = 'picture/dinhtienInvite.png';
+            img1.src = 'dinhtienHead.png';
+            img2.src = 'dinhtienBody.png';
+            img3.src = 'dinhtienLast.png';
+            img4.src = 'dinhtienInvite.png';
             break;
         case "Duy Hưng":
-            img1.src = 'picture/hungHead.png';
-            img2.src = 'picture/hungBody.png';
-            img3.src = 'picture/hungLast.png';
-            img4.src = 'picture/hungInvite.png';
+            img1.src = 'hungHead.png';
+            img2.src = 'hungBody.png';
+            img3.src = 'hungLast.png';
+            img4.src = 'hungInvite.png';
             break;  
         case "An Huy":
-            img1.src = 'picture/huyHead.png';
-            img2.src = 'picture/huyBody.png';
-            img3.src = 'picture/huyLast.png';
-            img4.src = 'picture/huyInvite.png';
+            img1.src = 'huyHead.png';
+            img2.src = 'huyBody.png';
+            img3.src = 'huyLast.png';
+            img4.src = 'huyInvite.png';
             break;  
         case "Hà Ngân":
-            img1.src = 'picture/nganHead.png';
-            img2.src = 'picture/nganBody.png';
-            img3.src = 'picture/nganLast.png';
-            img4.src = 'picture/nganInvite.png';
+            img1.src = 'nganHead.png';
+            img2.src = 'nganBody.png';
+            img3.src = 'nganLast.png';
+            img4.src = 'nganInvite.png';
             break;  
         case "Ngọc Linh":
-            img1.src = 'picture/ngoclinhHead.png';
-            img2.src = 'picture/ngoclinhBody.png';
-            img3.src = 'picture/ngoclinhLast.png';
-            img4.src = 'picture/ngoclinhInvite.png';
+            img1.src = 'ngoclinhHead.png';
+            img2.src = 'ngoclinhBody.png';
+            img3.src = 'ngoclinhLast.png';
+            img4.src = 'ngoclinhInvite.png';
             break;  
         case "Hoàng Nguyên":
-            img1.src = 'picture/nguyenHead.png';
-            img2.src = 'picture/nguyenBody.png';
-            img3.src = 'picture/nguyenLast.png';
-            img4.src = 'picture/nguyenInvite.png';
+            img1.src = 'nguyenHead.png';
+            img2.src = 'nguyenBody.png';
+            img3.src = 'nguyenLast.png';
+            img4.src = 'nguyenInvite.png';
             break;
         case "Quý Nhân":
-            img1.src = 'picture/nhanHead.png';
-            img2.src = 'picture/nhanBody.png';
-            img3.src = 'picture/nhanLast.png';
-            img4.src = 'picture/nhanInvite.png';
+            img1.src = 'nhanHead.png';
+            img2.src = 'nhanBody.png';
+            img3.src = 'nhanLast.png';
+            img4.src = 'nhanInvite.png';
             break;
         case "Yến Nhi":
-            img1.src = 'picture/nhiHead.png';
-            img2.src = 'picture/nhiBody.png';
-            img3.src = 'picture/nhiLast.png';
-            img4.src = 'picture/nhiInvite.png';
+            img1.src = 'nhiHead.png';
+            img2.src = 'nhiBody.png';
+            img3.src = 'nhiLast.png';
+            img4.src = 'nhiInvite.png';
             break;
         case "Văn Thắng":
-            img1.src = 'picture/thangHead.png';
-            img2.src = 'picture/thangBody.png';
-            img3.src = 'picture/thangLast.png';
-            img4.src = 'picture/thangInvite.png';
+            img1.src = 'thangHead.png';
+            img2.src = 'thangBody.png';
+            img3.src = 'thangLast.png';
+            img4.src = 'thangInvite.png';
             break;
         case "Tấn Thành":
-            img1.src = 'picture/thanhHead.png';
-            img2.src = 'picture/thanhBody.png';
-            img3.src = 'picture/thanhLast.png';
-            img4.src = 'picture/thanhInvite.png';
+            img1.src = 'thanhHead.png';
+            img2.src = 'thanhBody.png';
+            img3.src = 'thanhLast.png';
+            img4.src = 'thanhInvite.png';
             break;
         case "Như Thiện":
-            img1.src = 'picture/thienHead.png';
-            img2.src = 'picture/thienBody.png';
-            img3.src = 'picture/thienLast.png';
-            img4.src = 'picture/thienInvite.png';
+            img1.src = 'thienHead.png';
+            img2.src = 'thienBody.png';
+            img3.src = 'thienLast.png';
+            img4.src = 'thienInvite.png';
             break;
         case "Thùy Linh":
-            img1.src = 'picture/thuylinhHead.png';
-            img2.src = 'picture/thuylinhBody.png';
-            img3.src = 'picture/thuylinhLast.png';
-            img4.src = 'picture/thuylinhInvite.png';
+            img1.src = 'thuylinhHead.png';
+            img2.src = 'thuylinhBody.png';
+            img3.src = 'thuylinhLast.png';
+            img4.src = 'thuylinhInvite.png';
             break;
         case "Thanh Thương":
-            img1.src = 'picture/thuongHead.png';
-            img2.src = 'picture/thuongBody.png';
-            img3.src = 'picture/thuongLast.png';
-            img4.src = 'picture/thuongInvite.png';
+            img1.src = 'thuongHead.png';
+            img2.src = 'thuongBody.png';
+            img3.src = 'thuongLast.png';
+            img4.src = 'thuongInvite.png';
             break;
         default:
-            img1.src = 'picture/friendHead.png';
-            img2.src = 'picture/friendBody.png';
-            img3.src = 'picture/friendLast.png';
-            img4.src = 'picture/friendInvite.png';
+            img1.src = 'friendHead.png';
+            img2.src = 'friendBody.png';
+            img3.src = 'friendLast.png';
+            img4.src = 'friendInvite.png';
         }
 
     var close = document.getElementById('dig');
