@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Webpage</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="snowBackground" id="snow">
+        <div class="snow"></div>
+    </div>
+    <div class="background">
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="christmas1.mp4" type="video/mp4">
+        </video>
+        <div class="music">
+            <p>Artist: José Feliciano</p>
+            <h2>Feliz Navidad (Lofi)</h2>
+            <audio controls autoplay loop src="laviz.mp3" type="audio/mp3"></audio>
+        </div>
+        <h1 class="header">Merry Christmas!</h1>
+        <!-- <input type="text" id="nameInput" placeholder="Nhập tên của bạn">
+        <button class="button" onclick="showName()">Ok</button> -->
+        <div class="button" onclick="openNameInput()">Enter Name</div>
+    </div>
+    <div class="background_input">
+        <div id="overlay">
+            <div class="Container">
+                <img class="NoelImg" src="Untitled.png" alt="*Ảnh ông già noel nha">
+                <label class="beforeNameInput" for="nameInput">Type Your Name</label>
+                <label class="beforeNameInput1" for="nameInput">(ex:Quý Nhân)</label>
+                <div class="inputContainer">
+                    <input 
+                    type="text" 
+                    id="nameInput" 
+                    name="nameInput" 
+                    value="" 
+                    aria-labelledby="label-nameInput"
+                    oninput="checkInput()"/>
+                    <label class="label" for="nameInput" id="label-nameInput">
+                        <div class="text">Your beautiful name</div>
+                    </label>
+                </div>
+                
+                <div class="openCloseContainer">
+                    <div id="closeButton" class="openClose" onclick="closeNameInput()">Close</div>
+                    <div id="openButton" class="openClose" onclick="openDig()">Log In</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dialogContainer" id="dig">
+        <div class="dig-header">Notification!!!!</div>
+        <div class="dig-body">Just two words of name</div>
+        <div class="dig-button">
+            <button class="button" id="closeButton" onclick="closeDig()">Close</button>
+            <button class="button" id="okButton" onclick="openGif()">Done</button> 
+        </div>
+    </div>
+    <div class="background-dig" id="background-dig"></div>
+    <script src="script.js"></script>
+
+    <div class="scrolls" id="gif">
+        <img class="imgT" id="Head" src="" alt="">
+        <img class="imgT" id="Body" src="" alt="">
+        <img class="imgT" id="Last" src="" alt="">
+        <img class="imgT" id="Invite" src="" alt="">
+        <img class="imgT" id="Infor" src="picture\nhanInfor.png" alt="">
+        <button id="closeGif" onclick="closeGif()">Close</button>
+    </div>
+    <div id="heart" onclick="openGif2()"></div>
+</body>
+</html>
